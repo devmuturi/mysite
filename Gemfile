@@ -60,3 +60,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "avo", "~> 3.19"
+
+gem "devise", "~> 4.9"
+
+gem "rolify", "~> 6.0"

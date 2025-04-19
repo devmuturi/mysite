@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  mount_avo
   root "homepage#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
